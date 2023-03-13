@@ -65,6 +65,7 @@ to_file(infile, outfile, is_unicode=False, is_truecolor=False, is_256color=True,
 This is will in the file given by `filename`, and write the output to `outfile`.
 
 # Future:
+ - [ ] 2023 bytestream support - use as libs in other apps to throw about images rendered to teminal
  - [ ] write docstrings
  - [ ] investigate different scaling modes? 256 color sometimes looks better for colors (than truecolor)?
  - [ ] rename the `_toAnsi` fn, as it's not really right (ANSI is restricted to the 16 color stuff, right?)
